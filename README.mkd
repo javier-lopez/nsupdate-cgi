@@ -1,0 +1,22 @@
+About
+-----
+
+[nsupdate](https://linux.die.net/man/8/nsupdate) is used to submit Dynamic DNS Update requests as defined in RFC2136 to a name server. This allows resource records to be added or removed from a zone without manually editing the zone file. [nsupdate-cgi](#) is an exercise in providing a web view to nsupdate, it includes:
+
+* scripts/ , wrapper scripts to add/remove/update dns entries
+* cgi-bin/ , cgi scripts (sh/perl)
+
+![nsupdater.cgi](https://raw.githubusercontent.com/javier-lopez/nsupdate-cgi/master/screenshots/nsupdater_cgi.gif)
+![bind_manager.cgi](https://raw.githubusercontent.com/javier-lopez/nsupdate-cgi/master/screenshots/bind_manager_cgi.gif)
+![bind_manager.sh](https://raw.githubusercontent.com/javier-lopez/nsupdate-cgi/master/screenshots/bind_manager.gif)
+![nsupdater.sh](https://raw.githubusercontent.com/javier-lopez/nsupdate-cgi/master/screenshots/nsupdater.gif)
+
+Usage
+-----
+
+    $ vagrant up && vagrant ssh
+
+Go to:
+
+    http://localhost:8080/nsupdater.htmll
+    http://localhost:8080/cgi-bin/bind_manager.cgi

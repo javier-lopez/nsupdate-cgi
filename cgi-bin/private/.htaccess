@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Private Area"
+AuthUserFile /usr/lib/cgi-bin/private/http.passwd
+Require user unix
