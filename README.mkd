@@ -18,5 +18,5 @@ Usage
 
 Go to:
 
-    http://localhost:8080/nsupdater.htmll
+    http://localhost:8080/nsupdater.html
     http://localhost:8080/cgi-bin/bind_manager.cgi
